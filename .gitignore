@@ -1,9 +1,10 @@
 # Data dan hasil eksperimen (berat): di-zip manual
-/data/
+/data/interim
+/data/processed
+/data/raw
 /results/runs/
 
 # compressed files
-*.zip
 *.7z
 
 # Python
