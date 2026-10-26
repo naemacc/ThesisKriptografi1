@@ -1,10 +1,12 @@
-*
-!/*/
-!.gitignore
-!*/
-!**/
-!*.py
-!*.png
-!hasil_log.json
-!encryption_time_*.json
-!validation_*.json
+# Data dan hasil eksperimen (berat): di-zip manual
+/data/
+/results/runs/
+
+# compressed files
+*.zip
+*.7z
+
+# Python
+.venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,86 @@
+[
+    {
+        "Skenario": "Skalabilitas",
+        "T-Test": {
+            "Sedikit": {
+                "n (Cross)": 300000,
+                "n (Sequenced)": 300000,
+                "Rata-rata Cross (µs)": 9.1446,
+                "Rata-rata Sequenced (µs)": 10.8363,
+                "t-value": -103.8552,
+                "p-value": "0.0000e+00",
+                "Hasil": "Signifikan (H1 diterima)"
+            },
+            "Sedang": {
+                "n (Cross)": 1500000,
+                "n (Sequenced)": 1500000,
+                "Rata-rata Cross (µs)": 13.7593,
+                "Rata-rata Sequenced (µs)": 18.1213,
+                "t-value": -366.3581,
+                "p-value": "0.0000e+00",
+                "Hasil": "Signifikan (H1 diterima)"
+            },
+            "Banyak": {
+                "n (Cross)": 3000000,
+                "n (Sequenced)": 3000000,
+                "Rata-rata Cross (µs)": 14.5447,
+                "Rata-rata Sequenced (µs)": 18.8992,
+                "t-value": -579.9105,
+                "p-value": "0.0000e+00",
+                "Hasil": "Signifikan (H1 diterima)"
+            }
+        },
+        "Kenaikan Waktu": {
+            "Cross": {
+                "Sedikit -> Sedang": "652.31%",
+                "Sedang -> Banyak": "111.42%"
+            },
+            "Sequenced": {
+                "Sedikit -> Sedang": "736.14%",
+                "Sedang -> Banyak": "108.59%"
+            }
+        }
+    },
+    {
+        "Skenario": "Sensitivitas",
+        "T-Test": {
+            "Pendek": {
+                "n (Cross)": 41169,
+                "n (Sequenced)": 41169,
+                "Rata-rata Cross (µs)": 10.0195,
+                "Rata-rata Sequenced (µs)": 12.9958,
+                "t-value": -59.9462,
+                "p-value": "0.0000e+00",
+                "Hasil": "Signifikan (H1 diterima)"
+            },
+            "Menengah": {
+                "n (Cross)": 41169,
+                "n (Sequenced)": 41169,
+                "Rata-rata Cross (µs)": 48.6966,
+                "Rata-rata Sequenced (µs)": 61.8132,
+                "t-value": -118.2948,
+                "p-value": "0.0000e+00",
+                "Hasil": "Signifikan (H1 diterima)"
+            },
+            "Panjang": {
+                "n (Cross)": 41169,
+                "n (Sequenced)": 41169,
+                "Rata-rata Cross (µs)": 95.1119,
+                "Rata-rata Sequenced (µs)": 111.622,
+                "t-value": -88.6092,
+                "p-value": "0.0000e+00",
+                "Hasil": "Signifikan (H1 diterima)"
+            }
+        },
+        "Kenaikan Waktu": {
+            "Cross": {
+                "Pendek -> Menengah": "386.02%",
+                "Menengah -> Panjang": "95.32%"
+            },
+            "Sequenced": {
+                "Pendek -> Menengah": "375.64%",
+                "Menengah -> Panjang": "80.58%"
+            }
+        }
+    }
+]
