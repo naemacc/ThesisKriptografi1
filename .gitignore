@@ -1,3 +1,6 @@
+# Editor directories
+.vscode/
+
 # Data dan hasil eksperimen (berat): di-zip manual
 /data/interim
 /data/processed
